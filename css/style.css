@@ -1,0 +1,52 @@
+ul {
+  list-style: none;
+}
+body {
+  color: #757575;
+}
+/* heder */
+span {
+  color: #2196f3;
+}
+
+.logo {
+  color: #212121;
+}
+.logo:hover {
+  zoom: 110%;
+}
+
+.section .section-title {
+  color: #212121;
+}
+.contact .link {
+  color: #2196f3;
+}
+.contact-list .linc,
+.contact-list .tel {
+  color: #212121;
+}
+.site-nav .linc {
+  color: #212121;
+}
+.site-nav .linc:hover,
+.site-nav .linc:focus,
+.contact-list .linc:hover,
+.contact-list .tel:hover {
+  color: #2196f3;
+}
+
+/* герой */
+.accent {
+  background-color: #2f303a;
+}
+.section .accent {
+  color: #ffffff;
+}
+
+/* основной цвет текста <p> #757575 */
+/* вторичный цвет текста <h> #212121 */
+/* цвет ссылок и кнопок #2196F3*/
+/* цвет адреса в хедер #FFFFFF  60 % */
+/* первичный цвет фона #FFFFFF */
+/*  вторичный цвет фона  #F5F4FA; */
