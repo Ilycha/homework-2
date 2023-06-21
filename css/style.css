@@ -14,6 +14,13 @@ ul {
 
 body {
   color: var(--primary-text-color);
+  font-family: Roboto;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* heder */
 .span-header {
@@ -22,6 +29,12 @@ body {
 
 .span-logo {
   color: #212121;
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .span-logo:hover {
   zoom: 110%;
@@ -29,6 +42,11 @@ body {
 
 .section .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
 }
 .contact .link {
   color: #2196f3;
@@ -36,9 +54,19 @@ body {
 .contact-list .linc,
 .contact-list .tel {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .linc {
   color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .linc:hover,
 .site-nav .linc:focus,
@@ -50,16 +78,47 @@ body {
   color: var(--link-color);
 }
 /* герой */
-
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
 .accent {
   background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
+
+.name-title {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
 .section .accent {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 .button {
   background-color: var(--primary-button-color);
   color: var(--secondary-button-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 /* подвал */
@@ -73,6 +132,12 @@ body {
 }
 .span-footer {
   color: #ffffff;
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .span-footer:hover {
   zoom: 110%;
@@ -81,6 +146,13 @@ body {
 .adress .adress-footer,
 .adress .tel-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
 }
 /* основной цвет текста <p> #757575 */
 /* вторичный цвет текста <h> #212121 */
@@ -88,3 +160,29 @@ body {
 /* цвет адреса в хедер #FFFFFF  60 % */
 /* первичный цвет фона #FFFFFF */
 /*  вторичный цвет фона  #F5F4FA; */
+
+/* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
+:root {
+  --buttons-background-color: #f5f4fa;
+  --buttons-background-hover: #2196f3;
+  --title-text-color: #212121;
+  --linc-title-color: #212121;
+  --linc-subtitle-color: #757575;
+}
+
+.buttons {
+  background-color: var(--buttons-background-color);
+  color: var(--title-text-color);
+}
+
+.buttons:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.linc-title {
+  color: var(--linc-title-color);
+}
+.linc-subtitle {
+  color: var(--linc-subtitle-color);
+}
