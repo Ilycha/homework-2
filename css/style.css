@@ -1,30 +1,41 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --link-color: #2196f3;
+  --primary-button-color: #2196f3;
+  --secondary-button-color: #ffffff;
+  --sectoin-color: #ffffff;
+  --secondary-cection-color: #2f303a;
+}
+
 ul {
   list-style: none;
 }
+
 body {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /* heder */
-span {
-  color: #2196f3;
+.span-header {
+  color: var(--link-color);
 }
 
-.logo {
+.span-logo {
   color: #212121;
 }
-.logo:hover {
+.span-logo:hover {
   zoom: 110%;
 }
 
 .section .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .contact .link {
   color: #2196f3;
 }
 .contact-list .linc,
 .contact-list .tel {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .linc {
   color: #212121;
@@ -33,9 +44,11 @@ span {
 .site-nav .linc:focus,
 .contact-list .linc:hover,
 .contact-list .tel:hover {
-  color: #2196f3;
+  color: var(--link-color);
 }
-
+.site-nav .linc.current {
+  color: var(--link-color);
+}
 /* герой */
 .accent {
   background-color: #2f303a;
@@ -43,7 +56,31 @@ span {
 .section .accent {
   color: #ffffff;
 }
+.button {
+  background-color: var(--primary-button-color);
+  color: var(--secondary-button-color);
+}
 
+/* подвал */
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.footer-logo {
+  color: var(--link-color);
+}
+.span-footer {
+  color: #ffffff;
+}
+.span-footer:hover {
+  zoom: 110%;
+}
+
+.adress .adress-footer,
+.adress .tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
 /* основной цвет текста <p> #757575 */
 /* вторичный цвет текста <h> #212121 */
 /* цвет ссылок и кнопок #2196F3*/
