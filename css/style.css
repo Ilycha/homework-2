@@ -52,7 +52,7 @@ p {
 }
 .contact-list .linc,
 .contact-list .tel {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,11 +82,12 @@ p {
 
 .section-title {
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .accent {
   background-color: #2f303a;
@@ -142,6 +143,7 @@ p {
   text-align: center;
 }
 .name-text {
+  color: var(--primary-text-color);
   text-align: center;
 }
 /* подвал */
@@ -156,7 +158,6 @@ p {
 .span-footer {
   color: #ffffff;
   font-family: Raleway, sans-serif;
-
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -165,6 +166,9 @@ p {
 }
 .span-footer:hover {
   zoom: 110%;
+}
+.adress {
+  font-style: normal;
 }
 
 .adress .adress-footer,
@@ -213,8 +217,22 @@ p {
 
 .linc-title {
   color: var(--linc-title-color);
+  font-family: Roboto, sans-serif;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .linc-subtitle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
   color: var(--linc-subtitle-color);
 }
 .linc {
