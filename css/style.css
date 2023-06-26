@@ -36,9 +36,6 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.span-logo:hover {
-  zoom: 110%;
-}
 
 .section .section-title {
   color: var(--title-text-color);
@@ -168,9 +165,7 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.span-footer:hover {
-  zoom: 110%;
-}
+
 .adress {
   font-style: normal;
 }
@@ -209,7 +204,6 @@ p {
   background-color: var(--button-background-color);
   color: var(--title-text-color);
   font-family: inherit;
-  
 }
 
 .button:hover {
